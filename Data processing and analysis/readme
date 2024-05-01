@@ -1,1 +1,35 @@
+Key codes related to data processing and analysis for the article "Uncovering the severe impacts of record-shattering compound drought and heatwaves on ecosystem productivity under climate change". Specific descriptions of the codes are provided below:
 
+generate q and RH.py: Generation of specific and relative humidity according to Clausius-Clapeyron equation.
+
+SPEI_calculator.py: Standardised precipitation evapotranspiration index (SPEI) calculation procedure
+
+warm_seasons.py: Calculating the warm seasons at the grid scale
+
+heat_threshold.py: Obtaining daily maximum temperature percentile thresholds
+
+heatwaves_start_and_durations.py: Getting the start date and duration of heatwaves. The return array corresponds to an index for the start time and a value for the duration. It also returns whether the beginning of the year has a heatwave event with repeated consideration with the end of the previous year
+
+heatwaves_start_and_durations_result.py: Remove the results of repeated counts of heatwave events at the beginning of each year
+
+heatwaves_severity_time_series.py: Calculating heatwave severity time series
+
+heatwaves_severity_result.py: Adding the heatwave severity at the beginning of each year to the time series to get the final result
+
+get_monthly_heatwave_severity.py: Integration of daily-scale heatwave severity into monthly scales
+
+get_annual_heatwave_severity.py: Integration of monthly heatwave severity into annual scales
+
+get_monthly_CDHW_severity.py: Generation of monthly-scale compound drought and heatwave (CDHW) severity time series using SPEI (<-1) and heatwave time series
+
+get_annual_CDHW_severity.py: Integration of monthly CDHW severity into annual scales
+
+get_severities_sigma_record.py: Getting standard deviation and initial record
+
+get record-shattering years and probabilities.py: Getting record-shattering climate extreme time series and record-shattering probabilities based on time series of climate extreme events.
+
+variables_mean_warm_seasons.py: Obtaining warm season averages of water-heat-carbon variables
+
+water-heat-carbon_variables_anomolies.py: Obtaining anomalies in water-heat-carbon variables during climate extremes
+
+sensitivity_warm_seasons.py: Analysing the sensitivity of CDHW severity to meteorological variables using random forests
