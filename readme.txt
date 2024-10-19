@@ -1,4 +1,4 @@
-Codes for the article "Uncovering the severe impacts of record-shattering compound drought and heatwaves on ecosystem productivity under climate change".
+Codes for the article "Understanding the dynamics of record-shattering compound drought-heatwave events and their severe impacts on ecosystems".
 
 
 
