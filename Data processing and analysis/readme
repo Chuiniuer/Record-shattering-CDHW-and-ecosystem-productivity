@@ -1,4 +1,4 @@
-Key codes related to data processing and analysis for the article "Uncovering the severe impacts of record-shattering compound drought and heatwaves on ecosystem productivity under climate change". Specific descriptions of the codes are provided below:
+Key codes related to data processing and analysis for the article "Understanding the dynamics of record-shattering compound drought-heatwave events and their severe impacts on ecosystems". Specific descriptions of the codes are provided below:
 
 generate q and RH.py: Generation of specific and relative humidity according to Clausius-Clapeyron equation.
 
